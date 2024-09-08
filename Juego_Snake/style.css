@@ -1,0 +1,67 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+body {
+    background-color: #2b2b2b;
+}
+#board, .boardInfo {
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #a9acb6;
+    box-shadow: 4px 4px 8px lightblue;
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: #434B4D; ;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: #cd7f32;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.snakeSquare {
+    background-color: #A9ACB6;
+    border: 1px solid #000;
+}
+
+.foodSquare {
+    background-color: #55e7e7;
+    border: 1px solid #000;
+}
