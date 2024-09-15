@@ -1,6 +1,6 @@
 7 proyectos javascript:
 
-Calculadora
+Calculadora<br>
 Cifrado-Cesar
 Cronometro
 Juego-Snake
